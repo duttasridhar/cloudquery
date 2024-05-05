@@ -83,6 +83,7 @@ const (
 	Namespacenginx_nginxplus                   = "nginx.nginxplus"
 	Namespacemicrosoft_azuredata               = "microsoft.azuredata"
 	Namespacemicrosoft_healthbot               = "microsoft.healthbot"
+	Namespacemicrosoft_app                     = "microsoft.app"
 )
 
 var namespaces = []string{
@@ -168,4 +169,5 @@ var namespaces = []string{
 	Namespacenginx_nginxplus,
 	Namespacemicrosoft_azuredata,
 	Namespacemicrosoft_healthbot,
+	Namespacemicrosoft_app,
 }

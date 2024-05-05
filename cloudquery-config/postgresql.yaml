@@ -1,0 +1,8 @@
+kind: destination
+spec:
+  name: "postgresql"
+  path: "localhost:7777"
+  registry: "grpc"
+  version: "v8.0.6"
+  spec:
+    connection_string: "postgresql://postgres:psql@localhost:5432/postgres?sslmode=disable"

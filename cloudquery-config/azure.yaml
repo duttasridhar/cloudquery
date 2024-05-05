@@ -1,0 +1,10 @@
+kind: source
+spec:
+  name: "azure"
+  version: "v13.1"
+  registry: "grpc"
+  path: "localhost:7778"
+  tables: ["*"]
+  destinations: ["postgresql"]
+  spec:
+  # plugin-specific config
