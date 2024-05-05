@@ -4,6 +4,7 @@ import (
 	"github.com/cloudquery/cloudquery/plugins/source/azure/resources/services/appservice"
 	"github.com/cloudquery/cloudquery/plugins/source/azure/resources/services/authorization"
 	"github.com/cloudquery/cloudquery/plugins/source/azure/resources/services/compute"
+	"github.com/cloudquery/cloudquery/plugins/source/azure/resources/services/containerappservices"
 	"github.com/cloudquery/cloudquery/plugins/source/azure/resources/services/cosmos"
 	"github.com/cloudquery/cloudquery/plugins/source/azure/resources/services/mariadb"
 	"github.com/cloudquery/cloudquery/plugins/source/azure/resources/services/mysql"
@@ -52,6 +53,7 @@ func getTables() schema.Tables {
 		compute.Snapshots(),
 		compute.VirtualMachineScaleSets(),
 		compute.VirtualMachines(),
+		containerappservices.ContainerApp(),
 		cosmos.DatabaseAccounts(),
 		cosmos.Locations(),
 		cosmos.RestorableDatabaseAccounts(),
